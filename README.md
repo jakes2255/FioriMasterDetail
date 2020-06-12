@@ -10,6 +10,10 @@ Create Custom Split-App or Master Detail in Fiori.:relaxed:
 
 ### IDE: SAP Web IDE(Cloud)
 
+Feature1; Adding Navigatio Back button on the Detail screen.
+
+Branch Name: 001-NavBack-feature-moduleil
+
 
 Thanks,</br>
 Arun
