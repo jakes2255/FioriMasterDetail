@@ -22,7 +22,10 @@ sap.ui.define([
 			*/
 			if(!Device.system.phone) {
 				this.getOwnerComponent().getRouter()
-					.navTo("drinkDetails", {drinkId: 0}, true);				
+					.navTo("drinkDetails", {drinkId: 0}, true);	
+				this.getView().byId("orders").removeSelections(true); 
+				var firstOrder = this.getView().byId("orders").getItems()[0]; 
+        		this.getView().byId("orders").setSelectedItem(firstOrder,true);
 			}
 		},
 		onSelectionChange: function(oEvent) {

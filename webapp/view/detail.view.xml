@@ -2,7 +2,7 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
-			<Page title="{drinkName}" navButtonPress="onNavBack" showNavButton="{device>/system/phone}">
+			<Page title="{drinkName}" navButtonPress="onNavBack" showNavButton="{device>/system/desktop}">
 				<content>
 					<List id="products" items="{products}" headerText="Products">
 						<items>
